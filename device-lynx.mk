@@ -19,6 +19,9 @@ TARGET_LINUX_KERNEL_VERSION := $(RELEASE_KERNEL_LYNX_VERSION)
 TARGET_KERNEL_DIR ?= $(RELEASE_KERNEL_LYNX_DIR)
 TARGET_BOARD_KERNEL_HEADERS ?= $(RELEASE_KERNEL_LYNX_DIR)/kernel-headers
 
+#Use libc variant by default
+PRODUCT_USE_SCUDO := true
+
 DEVICE_PACKAGE_OVERLAYS += device/google/lynx/lynx/overlay
 
 include device/google/lynx/audio/lynx/audio-tables.mk
