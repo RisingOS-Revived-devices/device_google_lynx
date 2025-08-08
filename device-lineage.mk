@@ -20,6 +20,9 @@ PRODUCT_PACKAGES += \
 # PixelParts
 -include packages/apps/PixelParts/device.mk
 
+# Google Camera Prebuilt
+-include vendor/google/camera/camera.mk
+
 # PixelSupport
 include device/google/gs-common/pixelsupport/pixelsupport.mk
 

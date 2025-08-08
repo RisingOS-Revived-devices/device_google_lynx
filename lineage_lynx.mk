@@ -27,17 +27,11 @@ TARGET_PREBUILT_BCR := true
 # Addons
 TARGET_HAS_UDFPS := true
 
-# Gms 
+# Gms
 WITH_GMS := true
 
 #Ship Pixel Overlays
 WITH_PIXEL_OVERLAYS := true
-
-# Ship Pixel Launcher
-TARGET_DEFAULT_PIXEL_LAUNCHER := false
-
-# Ship Google Camera
-TARGET_PREBUILT_GOOGLE_CAMERA := true
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
