@@ -26,6 +26,8 @@ TARGET_PREBUILT_BCR := true
 
 # Addons
 TARGET_HAS_UDFPS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+RELEASE_PIXEL_2025_ENABLED := true
 
 # Gms
 WITH_GMS := true
